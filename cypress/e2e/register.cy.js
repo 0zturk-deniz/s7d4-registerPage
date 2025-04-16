@@ -32,7 +32,7 @@ describe('Register Page', () => {
       cy.get('[data-cy="soyad-input"]').type("öztürk");
       cy.get('[data-cy="email-input"]').type("emre@wit.com.tr");
       cy.get('[data-cy="password-input"]').type("1234abAc!*");
-      cy.get('[data-cy="submit-button"]').should("not.be.disabled");
+      cy.get('[data-cy="submit-button"]').should("be.enabled");
     });
     it('submits form on validated input', () => {
       cy.get('[data-cy="ad-input"]').type("deniz");
