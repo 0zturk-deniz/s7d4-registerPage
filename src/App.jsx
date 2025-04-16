@@ -1,0 +1,16 @@
+/* eslint-disable react/react-in-jsx-scope */
+import './App.css'
+import Register from './components/Register'
+
+
+
+function App() {
+
+  return (
+    <>
+      <Register /> 
+    </>
+  )
+}
+
+export default App
