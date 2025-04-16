@@ -181,6 +181,7 @@ export default function Register() {
   </Button>
         </Form>
         </CardBody>
+        {}
         {id && <CardFooter data-cy="response-message">ID: {id}</CardFooter>}
     </Card>
     );
